@@ -11,9 +11,9 @@ const dayCareName = "Bark and Bowl Doggy Day Care";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Aside />
-      <Main />
+      <Header name = {"Bark and Bowl Doggy Day Care"} />
+      <Aside dogs={dogs} />
+      <Main dogs={dogs} />
     </div>
   );
 }
